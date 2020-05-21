@@ -1,10 +1,21 @@
-console.log('OK');
+//fire fist R
+var rightFist = gsap.to('#fistR',{
+  opacity: 1,
+  y: -1500,
+  duration: 2,
+  paused: true
+});
 
-gsap.from( '#heart1', {
- 
-    x: -600,
-    fill: 'orange',
-    opacity: 0,
-    duration: 3
-    
-  });
+//fire fist L
+var leftFist = gsap.to('#fistL',{
+  opacity: 1,
+  y: -1500,
+  duration: 2,
+  paused: true
+});
+
+document.querySelector("#redB").onclick = () =>
+leftFist.play();
+
+document.querySelector("#yellowB").onclick = () =>
+rightFist.play();
