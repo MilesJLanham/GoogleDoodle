@@ -1,25 +1,22 @@
-/* My Awesome Styles */
-
-/* Diagnostic Styling 
-  * Change Background Color
-  * Outline Elements
-*/
-
-* {
-    outline: 1px dotted black;
-}
-
+/* External styling from: https://codepen.io/manikoth/pen/NNNBYe.css
+ */
 /* Doodle Stage */
 #stage {
-  background: #ccc;
   height: 300px;
   width: 600px;
 }
 
-#heart1 {
-  fill: red;
+#fistR{
+ position:relative;
+ height: 120px;
+ transform: translate(520px, -250px);
+ opacity:0;
 }
 
-#heart2 {
-  fill: green;
+#fistL{
+ position:relative;
+ height: 120px;
+ transform: translate(-80px, -250px);
+ opacity:0;
+  
 }
