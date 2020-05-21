@@ -3,7 +3,7 @@ For my google doodle, I chose to theme it around older  games specifically older
 
 
 ## Collage
-[Link to Figma Collage](https://www.figma.com/file/KIEiC0Tgx5IF1BhpTLZhn0/Google-Doodle?node-id=0%3A1)
+https://www.figma.com/file/fxq8YX3JSxqRm90muWcuXQ/Collage?node-id=0%3A1
 
 ## Resources
 * https://thenounproject.com/search/?q=fist&i=984524
