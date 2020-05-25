@@ -19,3 +19,5 @@ leftFist.play();
 
 document.querySelector("#yellowB").onclick = () =>
 rightFist.play();
+
+
